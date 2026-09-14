@@ -1,0 +1,83 @@
+GOOGLE ADS - RESPONSIVE DISPLAY CAMPAIGN ASSETS
+Meraki Table (Cypriot recipe and home cooking site)
+
+All copy in this file is a starting draft. It must be reviewed against current
+Google Ads editorial policy, and against the advertiser's own substantiated
+claims, before any of it is used in a live campaign. Character counts shown in
+square brackets include spaces and punctuation. English throughout, written for
+a Cypriot audience (en-CY).
+
+================================================================
+BUSINESS NAME (25 characters max)
+================================================================
+Meraki Table [12]
+
+================================================================
+SHORT HEADLINES (30 characters max)
+================================================================
+Cypriot Recipes [15]
+Easy Weeknight Dinners [22]
+Metric Cup Toggle [17]
+Free Weekly Meal Plans [22]
+Baking Weighed in Grams [23]
+Recipes for the Grill [21]
+Cyprus Seasonal Produce [23]
+Vegetarian Dinner Ideas [23]
+One Shop, Five Dinners [22]
+Home Cooking, Tested [20]
+Dinner in Forty Minutes [23]
+Halloumi, Done Properly [23]
+Cook What Is in Season [22]
+Shopping Lists by Aisle [23]
+Nistisima Recipes [17]
+
+================================================================
+LONG HEADLINE (90 characters max)
+================================================================
+Cypriot recipes in grams and millilitres, with a 250 ml cup toggle on every page [80]
+Free weekly meal plans with the shopping list already grouped by aisle [70]
+Weeknight dinners on the table in forty minutes, from an ordinary weekly shop [77]
+Baking weighed in grams, with fan and conventional temperatures side by side [76]
+Seasonal cooking for the Cypriot growing year, month by month [61]
+
+================================================================
+DESCRIPTIONS (90 characters max)
+================================================================
+Cypriot recipes in grams and millilitres, with a 250 ml cup toggle on every page. [81]
+Weeknight dinners, baking, grilling and meze recipes in one place. [66]
+Free weekly meal plans with a shopping list grouped by aisle. [61]
+Prep, cook and total times, servings, storage and allergen notes on every recipe. [81]
+A produce guide written for the Cypriot seasons, updated month by month. [72]
+Baking in grams, with fan and conventional oven temperatures side by side. [74]
+Tickable ingredient lists and a servings scaler built into every recipe. [72]
+Grill recipes for souvla, sheftalia and whole fish over charcoal or gas. [72]
+Vegetarian, vegan and nistisima dinners with the swaps written in. [66]
+Conversions for the 250 ml cup, the 15 ml spoon and oven settings in Celsius. [77]
+
+================================================================
+CALL TO ACTION SUGGESTIONS
+================================================================
+Learn more [10]
+See more [8]
+Sign up [7]
+Subscribe [9]
+Visit site [10]
+
+================================================================
+NOTES FOR WHOEVER RUNS THIS CAMPAIGN
+================================================================
+- Short headlines are truncated aggressively in small display placements.
+  The shortest lines in this list are the safest across placement sizes.
+- Images supplied separately must be original photography the advertiser
+  owns or is licensed to use. Do not use site photography without checking
+  the licence for each image.
+- Keep the logo and business name consistent with the site wordmark, which
+  reads Meraki Table with the tagline Cypriot home cooking.
+- No superlatives, no health or nutritional claims, no urgency, no prices.
+  Any price added later must be in euro.
+- Seasonal rotation follows Cyprus, not the southern hemisphere. Grilling and
+  salads run June to August, oven and preserving copy from September, citrus
+  and greens from December, artichokes and nistisima copy from March.
+- English spelling throughout, EU ingredient names (aubergine, courgette,
+  mince, prawns). Review against current Google Ads editorial policy before
+  the campaign goes live.

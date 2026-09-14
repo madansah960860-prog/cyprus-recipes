@@ -1,0 +1,87 @@
+GOOGLE ADS - DEMAND GEN CAMPAIGN ASSETS
+Meraki Table (Cypriot recipe and home cooking site)
+
+All copy in this file is a starting draft. It must be reviewed against current
+Google Ads editorial policy, and against the advertiser's own substantiated
+claims, before any of it is used in a live campaign. Character counts shown in
+square brackets include spaces and punctuation. English throughout, written for
+a Cypriot audience (en-CY), with euro pricing where pricing is ever mentioned.
+
+================================================================
+BUSINESS NAME (25 characters max)
+================================================================
+Meraki Table [12]
+
+================================================================
+HEADLINES (40 characters max)
+================================================================
+Cypriot Recipes, Cooked Twice [29]
+Weeknight Dinners, Cyprus Style [31]
+Recipes With a Metric Cup Toggle [32]
+Cook the Cyprus Seasons [23]
+Free Weekly Meal Plans and Lists [32]
+Tested in a Limassol Kitchen [28]
+Halloumi Beyond the Grill Pan [29]
+Baking Weighed in Grams [23]
+Meze Without a Restaurant [25]
+Vegetarian Dinners for the Table [32]
+What Is Good at the Laiki Now [29]
+One Shop, Five Dinners [22]
+Fan and Conventional Oven Temps [31]
+Souvla and Grill Recipes [24]
+Nistisima Recipes for Fasting [29]
+
+================================================================
+LONG HEADLINES (90 characters max)
+================================================================
+Cypriot recipes in grams and millilitres, with a 250 ml cup toggle on every page [80]
+Weeknight dinners on the table in forty minutes, from an ordinary weekly shop [77]
+Free weekly meal plans with the shopping list already grouped by aisle [70]
+Baking weighed in grams, with fan and conventional temperatures side by side [76]
+A seasonal produce guide written for the Cypriot growing year, month by month [77]
+Grill recipes written for a home gas grill, a charcoal fire and a souvla spit [77]
+Vegetarian, vegan and nistisima recipes with the swaps written into the method [78]
+Prep time, cook time, servings, storage and allergen notes on every recipe [74]
+Recipes cooked at least twice in a home kitchen in Limassol before publishing [77]
+Ingredients you can buy at the supermarket or the laiki, not a specialist shop [78]
+
+================================================================
+DESCRIPTIONS (90 characters max)
+================================================================
+Cypriot recipes in grams and millilitres, with a 250 ml cup toggle on every page. [81]
+Weeknight dinners, baking, grilling and meze for home cooks across Cyprus. [74]
+Free weekly meal plans with a shopping list grouped by aisle. No signup needed. [79]
+Prep time, cook time, servings, storage and allergen notes on every recipe. [75]
+Cook what is in season, with a produce guide built for the Cypriot year. [72]
+Baking in grams, with fan and conventional oven temperatures side by side. [74]
+Tickable ingredient lists and a servings scaler that recalculates quantities. [77]
+Grill recipes for souvla, sheftalia and whole fish over charcoal or gas. [72]
+Vegetarian, vegan and nistisima dinners with the swaps written into the method. [79]
+Conversions for the 250 ml cup, the 15 ml spoon and oven settings in Celsius. [77]
+
+================================================================
+CALL TO ACTION SUGGESTIONS (from Google's standard set)
+================================================================
+Learn more [10]
+See more [8]
+Sign up [7]
+Subscribe [9]
+Visit site [10]
+
+================================================================
+NOTES FOR WHOEVER RUNS THIS CAMPAIGN
+================================================================
+- Every line is written to stand alone, because Google mixes assets.
+- No superlatives, no health or nutritional claims, no urgency, no prices.
+- No all-caps words, no repeated punctuation, no emoji, no phone numbers.
+- Angles are varied on purpose: speed, seasonality, budget, skill level,
+  family cooking, meze and entertaining, fasting periods and dietary options.
+- Seasonal assets follow the Cypriot year. Grill and salad copy runs June to
+  August, slow cooking and preserving from September, citrus and greens from
+  December, artichokes and nistisima copy from March.
+- Halloumi, souvla, meze, laiki and nistisima read as everyday words to a
+  Cypriot audience. For EU markets outside Cyprus, prefer the assets that do
+  not depend on them.
+- Landing page should match the asset that led to it. Meal plan copy should
+  point at the meal plans page, not the home page.
+- Any pricing ever added must be in euro and must match the site.

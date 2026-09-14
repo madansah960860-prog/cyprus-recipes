@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en-CY">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All Recipes | Meraki Table</title>
+<meta name="description" content="Browse every recipe on Meraki Table. Filter Cypriot and Mediterranean home cooking by category, cuisine, dietary need and cooking time. Metric quantities, with a cups toggle on every recipe page.">
+<!-- PLACEHOLDER - REPLACE WITH REAL VERIFIED INFORMATION BEFORE LAUNCH: confirm the live domain before publishing canonical and Open Graph URLs. -->
+<link rel="canonical" href="https://www.merakitable.com.cy/recipes.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Meraki Table">
+<meta property="og:title" content="All Recipes | Meraki Table">
+<meta property="og:description" content="Filter Cypriot home cooking by category, cuisine, dietary need and cooking time.">
+<meta property="og:url" content="https://www.merakitable.com.cy/recipes.html">
+<meta property="og:locale" content="en_CY">
+<meta property="og:image" content="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&h=630&q=70">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/favicon-180.png">
+<meta name="theme-color" content="#0C2A35">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="index.html">Meraki <span>Table</span><small>Cypriot home cooking</small></a>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="recipes.html" aria-current="page">Recipes</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="meal-plans.html">Meal Plans</a></li>
+        <li><a href="kitchen-basics.html">Kitchen Basics</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="header-search">
+      <form role="search" data-search-handoff="recipes.html" action="recipes.html" method="get">
+        <label class="visually-hidden" for="header-search-input">Search recipes</label>
+        <input type="search" id="header-search-input" name="q" placeholder="Search recipes">
+        <button class="btn btn-secondary btn-sm" type="submit">Go</button>
+      </form>
+    </div>
+    <button class="hamburger" type="button" aria-expanded="false" aria-controls="site-drawer">
+      <span class="bars" aria-hidden="true"></span> Menu
+    </button>
+  </div>
+</header>
+
+<div class="drawer" id="site-drawer">
+  <div class="wrap">
+    <div class="drawer-top">
+      <span class="wordmark">Meraki <span>Table</span></span>
+      <button class="drawer-close" type="button">Close</button>
+    </div>
+    <div class="drawer-search">
+      <form role="search" data-search-handoff="recipes.html" action="recipes.html" method="get">
+        <label class="visually-hidden" for="drawer-search-input">Search recipes</label>
+        <input type="search" id="drawer-search-input" name="q" placeholder="Search recipes">
+        <button class="btn btn-primary btn-block" type="submit">Search recipes</button>
+      </form>
+    </div>
+    <nav aria-label="Mobile">
+      <ul>
+        <li><a href="recipes.html" aria-current="page">Recipes</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="meal-plans.html">Meal Plans</a></li>
+        <li><a href="kitchen-basics.html">Kitchen Basics</a></li>
+        <li><a href="seasonal-produce.html">Seasonal Produce</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<main id="main">
+  <nav class="wrap breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="index.html">Home</a></li>
+      <li aria-current="page">All recipes</li>
+    </ol>
+  </nav>
+
+  <div class="wrap page-head">
+    <h1>Every recipe on Meraki Table</h1>
+    <p class="lede">Twenty nine recipes, every one cooked and eaten at a table in Limassol before it went online. Filter by category, cuisine, dietary need, or by the time you actually have tonight. Quantities are metric, with a cups toggle on each recipe page.</p>
+  </div>
+
+  <section class="band band-cream band-tight">
+    <div class="wrap">
+
+      <!-- ===== Search and filters ===== -->
+      <form class="filter-bar" role="search" onsubmit="return false;">
+        <div class="field">
+          <label for="recipe-search">Search by name, ingredient or occasion</label>
+          <input type="search" id="recipe-search" name="q" placeholder="halloumi, pumpkin, tray bake, meze">
+          <p class="hint">Type an ingredient or a dish. The list below narrows as you type, no button needed.</p>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Filter by category">
+          <span class="label">Category</span>
+          <button class="chip" type="button" data-filter-group="category" data-filter-value="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-filter-group="category" data-filter-value="quick" aria-pressed="false">Quick weeknight</button>
+          <button class="chip" type="button" data-filter-group="category" data-filter-value="baking" aria-pressed="false">Baking &amp; desserts</button>
+          <button class="chip" type="button" data-filter-group="category" data-filter-value="bbq" aria-pressed="false">Grill &amp; outdoor</button>
+          <button class="chip" type="button" data-filter-group="category" data-filter-value="vegetarian" aria-pressed="false">Vegetarian &amp; vegan</button>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Filter by cuisine">
+          <span class="label">Cuisine</span>
+          <button class="chip" type="button" data-filter-group="cuisine" data-filter-value="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-filter-group="cuisine" data-filter-value="modern-cypriot" aria-pressed="false">Modern Cypriot</button>
+          <button class="chip" type="button" data-filter-group="cuisine" data-filter-value="asian" aria-pressed="false">Asian at home</button>
+          <button class="chip" type="button" data-filter-group="cuisine" data-filter-value="mediterranean" aria-pressed="false">Mediterranean</button>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Filter by dietary need">
+          <span class="label">Dietary</span>
+          <button class="chip" type="button" data-filter-group="diet" data-filter-value="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-filter-group="diet" data-filter-value="vegetarian" aria-pressed="false">Vegetarian</button>
+          <button class="chip" type="button" data-filter-group="diet" data-filter-value="vegan" aria-pressed="false">Vegan or vegan option</button>
+          <button class="chip" type="button" data-filter-group="diet" data-filter-value="dairy-free" aria-pressed="false">Dairy-free option</button>
+          <button class="chip" type="button" data-filter-group="diet" data-filter-value="gluten-free" aria-pressed="false">Gluten-free option</button>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Filter by total time">
+          <span class="label">Time</span>
+          <button class="chip" type="button" data-filter-group="time" data-filter-value="all" aria-pressed="true">Any</button>
+          <button class="chip" type="button" data-filter-group="time" data-filter-value="under30" aria-pressed="false">Under 30 min</button>
+          <button class="chip" type="button" data-filter-group="time" data-filter-value="under60" aria-pressed="false">Under 60 min</button>
+          <button class="chip" type="button" data-filter-group="time" data-filter-value="over60" aria-pressed="false">More than an hour</button>
+        </div>
+
+        <div class="filter-row">
+          <button class="btn btn-secondary btn-sm" type="button" id="clear-filters">Clear all filters</button>
+        </div>
+      </form>
+
+      <p class="result-count" id="result-count" role="status">Showing all 29 recipes</p>
+
+      <!-- ===== Results ===== -->
+      <ul class="card-grid" id="recipe-results">
+
+        <li data-recipe data-category="quick" data-cuisine="asian" data-diet="dairy-free" data-time="45" data-keywords="chicken tray bake soy ginger honey one pan weeknight family cyprus potatoes">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&h=533&q=70" alt="Overhead tray of golden barbecued chicken pieces with roast potatoes and two small bowls of dipping sauce." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Quick weeknight</span>
+              <h3><a href="recipes/sticky-soy-ginger-chicken-tray-bake.html">Sticky Soy and Ginger Chicken Tray Bake</a></h3>
+              <p>One tray, one bowl to wash, and a soy and honey glaze that catches in the pan while the Cyprus potatoes crisp at the edges.</p>
+              <p class="card-meta"><span>45 min</span><span>Serves 4</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="bbq" data-cuisine="modern-cypriot" data-diet="dairy-free gluten-free" data-time="35" data-keywords="pork chops barbecue pineapple salsa grill summer souvla foukou charcoal">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&h=533&q=70" alt="Thick grilled pork chop topped with caramelised pineapple pieces beside greens on a white plate." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Grill &amp; outdoor</span>
+              <h3><a href="recipes/barbecued-pork-chops-pineapple-salsa.html">Barbecued Pork Chops with Charred Pineapple Salsa</a></h3>
+              <p>Half an hour in brine keeps the chops juicy over charcoal, and the pineapple goes on the same bars straight after.</p>
+              <p class="card-meta"><span>35 min</span><span>Serves 4</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="vegetarian" data-cuisine="mediterranean" data-diet="vegetarian vegan gluten-free" data-time="45" data-keywords="pumpkin chickpea rocket tahini salad roast vegetarian share table halloumi anari meze">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&h=533&q=70" alt="Overhead bowl of roasted vegetables, chickpeas, sliced avocado, cherry tomatoes and leaves dressed with a pale sauce." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Vegetarian</span>
+              <h3><a href="recipes/roast-pumpkin-chickpea-rocket-salad.html">Roast Pumpkin, Chickpea and Rocket Salad</a></h3>
+              <p>A warm salad built to sit on a meze table, with a lemon tahini dressing that doubles as a sandwich spread. Halloumi or anari on top if you want it to be dinner.</p>
+              <p class="card-meta"><span>45 min</span><span>Serves 4</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="" data-cuisine="mediterranean" data-diet="" data-time="215" data-keywords="beef ragu pasta slow cooked sunday penne pappardelle freezer pourgouri bulgur">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&h=533&q=70" alt="White bowl of penne coated in a deep red slow-cooked beef ragu." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Mediterranean</span>
+              <h3><a href="recipes/slow-cooked-beef-ragu.html">Slow-Cooked Beef Ragù with Pasta</a></h3>
+              <p>Three hours, mostly unattended. Enough for dinner over pasta or pourgouri, plus two containers for the freezer.</p>
+              <p class="card-meta"><span>3 hr 35 min</span><span>Serves 6</span><span>Moderate</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="baking" data-cuisine="modern-cypriot" data-diet="vegetarian" data-time="35" data-keywords="cookies biscuits chocolate macadamia walnut almond baking dessert lunchbox">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&h=533&q=70" alt="Broken dark chocolate cookies scattered on white baking paper, showing melted chocolate through the crumb." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Baking</span>
+              <h3><a href="recipes/double-chocolate-macadamia-cookies.html">Double Chocolate and Macadamia Cookies</a></h3>
+              <p>Chilled dough, Cyprus sea salt and macadamias, with Troodos walnuts as the local swap. Crisp edge, fudgy middle.</p>
+              <p class="card-meta"><span>35 min</span><span>Makes 18</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="quick" data-cuisine="asian" data-diet="dairy-free" data-time="40" data-keywords="chicken noodle soup ginger rice noodles broth winter cold">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1478749485505-2a903a729c63?auto=format&fit=crop&w=800&h=533&q=70" alt="Deep bowl of noodle soup with sliced spring onion and herbs, set on a dark timber table with chopsticks." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Asian at home</span>
+              <h3><a href="recipes/chicken-ginger-rice-noodle-soup.html">Chicken, Ginger and Rice Noodle Soup</a></h3>
+              <p>A clear, gingery broth built in 40 minutes from chicken thighs and a bunch of coriander. Weeknight food, not a project.</p>
+              <p class="card-meta"><span>40 min</span><span>Serves 4</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="quick" data-cuisine="asian" data-diet="dairy-free gluten-free" data-time="25" data-keywords="prawns avocado rice bowl seafood quick lunch">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&h=533&q=70" alt="Overhead bowl of grilled protein with corn, red cabbage, cherry tomatoes and greens arranged in sections." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Quick weeknight</span>
+              <h3><a href="categories/quick-weeknight-dinners.html#prawn-avocado-rice-bowls">Prawn and Avocado Rice Bowls</a></h3>
+              <p>Green prawns, hot rice and a lime dressing that comes together while the rice steams.</p>
+              <p class="card-meta"><span>25 min</span><span>Serves 4</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="quick" data-cuisine="mediterranean" data-diet="vegetarian" data-time="20" data-keywords="pasta salad pesto tomato picnic lunchbox make ahead">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&h=533&q=70" alt="Plate of bow-tie pasta tossed with green pesto, cherry tomatoes and rocket leaves." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Quick weeknight</span>
+              <h3><a href="categories/quick-weeknight-dinners.html#pesto-pasta-salad">Pesto Pasta Salad with Semi-Dried Tomatoes</a></h3>
+              <p>Better on day two, which makes it the most useful thing you can cook on a Sunday night.</p>
+              <p class="card-meta"><span>20 min</span><span>Serves 6</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="quick vegetarian" data-cuisine="modern-cypriot" data-diet="vegetarian" data-time="20" data-keywords="smashed avocado poached eggs dukkah brunch breakfast cafe">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=800&h=533&q=70" alt="Slice of toast topped with smashed avocado, halved soft-boiled egg and baby spinach on a dark plate." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Modern Cypriot</span>
+              <h3><a href="categories/quick-weeknight-dinners.html#smashed-avocado-eggs">Smashed Avocado with Poached Eggs and Dukkah</a></h3>
+              <p>Paphos avocados, soft eggs and dukkah, plus the splash of vinegar that keeps the whites tidy.</p>
+              <p class="card-meta"><span>20 min</span><span>Serves 2</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="quick" data-cuisine="modern-cypriot" data-diet="dairy-free gluten-free" data-time="25" data-keywords="salmon fish herbs capers dressing quick dinner">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?auto=format&fit=crop&w=800&h=533&q=70" alt="Crisp-skinned salmon fillet plated with a smear of sauce and a small pile of grains." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Quick weeknight</span>
+              <h3><a href="categories/quick-weeknight-dinners.html#grilled-salmon-caper-dressing">Grilled Salmon with Herb and Caper Dressing</a></h3>
+              <p>Crisp skin without smoke everywhere, and a dressing made in the time the fish rests.</p>
+              <p class="card-meta"><span>25 min</span><span>Serves 4</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="quick vegetarian" data-cuisine="mediterranean" data-diet="vegetarian vegan" data-time="15" data-keywords="bruschetta tomato basil sourdough entertaining summer">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1559054663-e8d23213f55c?auto=format&fit=crop&w=800&h=533&q=70" alt="Thick slices of toasted sourdough piled with chopped tomato, herbs and olive oil on a timber board." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Mediterranean</span>
+              <h3><a href="categories/quick-weeknight-dinners.html#tomato-basil-bruschetta">Tomato and Basil Bruschetta on Sourdough</a></h3>
+              <p>Only worth making when the tomatoes are right, which in Cyprus means July and August.</p>
+              <p class="card-meta"><span>15 min</span><span>Serves 4</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="baking" data-cuisine="modern-cypriot" data-diet="vegetarian" data-time="95" data-keywords="birthday cake sprinkles buttercream celebration kids party">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=800&h=533&q=70" alt="Bright layer cake covered in rainbow sprinkles with one slice cut away on a patterned cake stand." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Baking</span>
+              <h3><a href="categories/baking-and-desserts.html#sprinkle-birthday-cake">Sprinkle Birthday Cake with Vanilla Buttercream</a></h3>
+              <p>Two even layers, a buttercream that does not split, and a make-ahead plan for the night before.</p>
+              <p class="card-meta"><span>1 hr 35 min</span><span>Serves 12</span><span>Moderate</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="baking" data-cuisine="modern-cypriot" data-diet="vegetarian" data-time="45" data-keywords="cupcakes passionfruit curd icing bake sale">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=800&h=533&q=70" alt="Row of cupcakes with pale green swirled icing and coloured sprinkles on a pink surface." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Baking</span>
+              <h3><a href="categories/baking-and-desserts.html#passionfruit-curd-cupcakes">Passionfruit Curd Cupcakes</a></h3>
+              <p>Fresh passionfruit curd spooned into the middle, so the sweetness has something to push against.</p>
+              <p class="card-meta"><span>45 min</span><span>Makes 12</span><span>Moderate</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="baking" data-cuisine="modern-cypriot" data-diet="vegetarian" data-time="30" data-keywords="ricotta hotcakes pancakes strawberries breakfast brunch">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&h=533&q=70" alt="Folded pancakes on a white plate with whipped cream and fresh strawberries." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Baking</span>
+              <h3><a href="categories/baking-and-desserts.html#ricotta-hotcakes">Ricotta Hotcakes with Strawberries</a></h3>
+              <p>Whipped egg whites folded through at the last minute, which is the whole reason these stay light.</p>
+              <p class="card-meta"><span>30 min</span><span>Serves 4</span><span>Moderate</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="baking" data-cuisine="modern-cypriot" data-diet="vegetarian gluten-free" data-time="20" data-keywords="yoghurt pots strawberry vanilla dessert make ahead no bake">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&h=533&q=70" alt="Small glasses layered with thick yoghurt and chopped strawberries on a pale bench." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Baking</span>
+              <h3><a href="categories/baking-and-desserts.html#strawberry-vanilla-yoghurt-pots">Strawberry and Vanilla Yoghurt Pots</a></h3>
+              <p>No oven, no gelatine. Assembled in 20 minutes and left in the fridge until dinner is done.</p>
+              <p class="card-meta"><span>20 min plus chilling</span><span>Serves 6</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="baking" data-cuisine="modern-cypriot" data-diet="vegetarian gluten-free" data-time="25" data-keywords="chocolate pots salted caramel dessert entertaining">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&h=533&q=70" alt="Tall glass of chocolate dessert topped with cream and a chocolate sauce drizzle." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Baking</span>
+              <h3><a href="categories/baking-and-desserts.html#salted-caramel-chocolate-pots">Salted Caramel Chocolate Pots</a></h3>
+              <p>Five ingredients, one saucepan, and a caramel that is far more forgiving than it looks.</p>
+              <p class="card-meta"><span>25 min plus chilling</span><span>Serves 6</span><span>Moderate</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="baking" data-cuisine="mediterranean" data-diet="vegetarian vegan dairy-free" data-time="80" data-keywords="bread no knead overnight loaf dutch oven baking">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&h=533&q=70" alt="Two round rustic bread loaves with dark crusts beside wheat stalks on a dark bench." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Baking</span>
+              <h3><a href="categories/baking-and-desserts.html#no-knead-overnight-bread">No-Knead Overnight Bread</a></h3>
+              <p>Five minutes of work the night before, then a hot casserole dish does the rest in the morning.</p>
+              <p class="card-meta"><span>1 hr 20 min plus overnight</span><span>Makes 1 loaf</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="baking" data-cuisine="modern-cypriot" data-diet="vegetarian" data-time="25" data-keywords="french toast banana blueberry breakfast weekend">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=800&h=533&q=70" alt="Stack of thick french toast slices layered with banana slices and blueberries, dusted with icing sugar." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Baking</span>
+              <h3><a href="categories/baking-and-desserts.html#banana-blueberry-french-toast">Banana and Blueberry French Toast</a></h3>
+              <p>Day-old bread, a proper soak, and a pan that is cooler than you think it should be.</p>
+              <p class="card-meta"><span>25 min</span><span>Serves 4</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="bbq vegetarian" data-cuisine="modern-cypriot" data-diet="vegetarian gluten-free" data-time="20" data-keywords="corn barbecue lime paprika butter side summer">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1470119693884-47d3a1d1f180?auto=format&fit=crop&w=800&h=533&q=70" alt="Cobs of corn charred over a grill, glistening with butter and flecked with herbs." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Grill &amp; outdoor</span>
+              <h3><a href="categories/bbq-and-outdoor.html#barbecued-corn-lime-butter">Barbecued Corn with Lime and Smoked Paprika Butter</a></h3>
+              <p>Husks off, straight onto the bars. The flavoured butter can be made a week ahead.</p>
+              <p class="card-meta"><span>20 min</span><span>Serves 6</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="bbq" data-cuisine="modern-cypriot" data-diet="" data-time="30" data-keywords="burgers beef beetroot mince barbecue charcoal grill">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1550317138-10000687a72b?auto=format&fit=crop&w=800&h=533&q=70" alt="Beef burger in a seeded bun with lettuce, tomato and a fried egg, on a dark background." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Grill &amp; outdoor</span>
+              <h3><a href="categories/bbq-and-outdoor.html#beetroot-beef-burgers">Beetroot and Beef Burgers with Tarragon Mayo</a></h3>
+              <p>Beef mince handled lightly, tinned beetroot drained properly, and buns warmed on the grill plate.</p>
+              <p class="card-meta"><span>30 min</span><span>Serves 4</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="bbq quick" data-cuisine="mediterranean" data-diet="" data-time="30" data-keywords="pizza barbecue chicken red onion base dough">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&h=533&q=70" alt="Sliced pizza on a timber board topped with chicken, cheese and fresh herbs." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Grill &amp; outdoor</span>
+              <h3><a href="categories/bbq-and-outdoor.html#barbecued-chicken-pizza">Barbecued Chicken Pizza with Red Onion</a></h3>
+              <p>A covered barbecue gets hotter than a home oven, which is exactly what a pizza base wants.</p>
+              <p class="card-meta"><span>30 min</span><span>Makes 2</span><span>Moderate</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="bbq vegetarian" data-cuisine="mediterranean" data-diet="vegetarian gluten-free" data-time="40" data-keywords="vegetables platter feta whipped charred pepper courgette aubergine">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&h=533&q=70" alt="Overhead platter of raw vegetables including carrot ribbons, radish, cucumber and red cabbage on a white board." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Grill &amp; outdoor</span>
+              <h3><a href="categories/bbq-and-outdoor.html#charred-vegetable-platter">Charred Vegetable Platter with Whipped Feta</a></h3>
+              <p>Courgette, red pepper and aubergine cooked hard over the coals, then dressed while still warm so they drink up the vinegar.</p>
+              <p class="card-meta"><span>40 min</span><span>Serves 8</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="bbq" data-cuisine="mediterranean" data-diet="dairy-free gluten-free" data-time="40" data-keywords="whole fish snapper barbecue lemon oregano seafood charcoal">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=800&h=533&q=70" alt="Grilled fish fillets and salad leaves on a dark timber board beside a bowl of pale dipping sauce." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Grill &amp; outdoor</span>
+              <h3><a href="categories/bbq-and-outdoor.html#barbecued-whole-snapper">Barbecued Whole Snapper with Lemon and Oregano</a></h3>
+              <p>How to stop a whole fish sticking to the bars, and how to tell it is done without cutting into it. Dried oregano from the hills, and lemon.</p>
+              <p class="card-meta"><span>40 min</span><span>Serves 4</span><span>Moderate</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="vegetarian quick" data-cuisine="modern-cypriot" data-diet="vegetarian vegan gluten-free" data-time="50" data-keywords="pumpkin soup pepitas winter freezer vegetarian">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?auto=format&fit=crop&w=800&h=533&q=70" alt="Bowl of smooth orange pumpkin soup topped with pepitas, chilli flakes and a swirl of cream." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Vegetarian</span>
+              <h3><a href="categories/vegetarian-and-vegan.html#roast-pumpkin-soup">Roast Pumpkin Soup with Toasted Pepitas</a></h3>
+              <p>Roasting the pumpkin first is the difference between a nice soup and one people ask about.</p>
+              <p class="card-meta"><span>50 min</span><span>Serves 6</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="vegetarian quick" data-cuisine="modern-cypriot" data-diet="vegetarian vegan gluten-free" data-time="25" data-keywords="green goddess salad broccolini herbs dressing side">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1607532941433-304659e8198a?auto=format&fit=crop&w=800&h=533&q=70" alt="White bowl of mixed green salad with cherry tomatoes, olives and shredded leaves." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Vegetarian</span>
+              <h3><a href="categories/vegetarian-and-vegan.html#green-goddess-salad">Green Goddess Salad with Charred Broccolini</a></h3>
+              <p>A herb dressing that uses the stalks too, so a whole bunch of parsley actually gets eaten.</p>
+              <p class="card-meta"><span>25 min</span><span>Serves 4</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="vegetarian" data-cuisine="mediterranean" data-diet="vegetarian vegan dairy-free" data-time="45" data-keywords="grain bowl roast vegetables tahini pourgouri bulgur freekeh meal prep">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&h=533&q=70" alt="Dark bowl of grains studded with vegetables and herbs, with lemon wedges on the side." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Vegetarian</span>
+              <h3><a href="categories/vegetarian-and-vegan.html#warm-grain-bowl">Warm Grain Bowl with Roast Vegetables and Tahini</a></h3>
+              <p>Pourgouri or freekeh under roast vegetables. Eaten hot on Sunday, cold from a container on Tuesday.</p>
+              <p class="card-meta"><span>45 min</span><span>Serves 4</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="vegetarian" data-cuisine="modern-cypriot" data-diet="vegetarian vegan dairy-free gluten-free" data-time="15" data-keywords="fruit platter berries melon lime mint summer watermelon dessert">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=800&h=533&q=70" alt="Bowl of cut fruit including watermelon, strawberries, cherries, kiwifruit and grapefruit." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Vegetarian</span>
+              <h3><a href="categories/vegetarian-and-vegan.html#summer-fruit-platter">Summer Berry and Melon Platter with Lime and Mint</a></h3>
+              <p>The pudding that survives an August lunch at 38 degrees, with a lime syrup made in three minutes.</p>
+              <p class="card-meta"><span>15 min</span><span>Serves 10</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="vegetarian quick" data-cuisine="modern-cypriot" data-diet="vegetarian vegan dairy-free" data-time="15" data-keywords="overnight oats apple cinnamon breakfast make ahead lunchbox">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1467453678174-768ec283a940?auto=format&fit=crop&w=800&h=533&q=70" alt="Bowl of oats topped with sliced strawberries and blueberries beside half an avocado and a glass of juice." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Vegetarian</span>
+              <h3><a href="categories/vegetarian-and-vegan.html#overnight-oats">Overnight Oats with Grated Apple and Cinnamon</a></h3>
+              <p>Five jars on Sunday night covers the whole working week, and the apple keeps them from turning claggy.</p>
+              <p class="card-meta"><span>15 min plus overnight</span><span>Serves 5</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+        <li data-recipe data-category="vegetarian quick" data-cuisine="modern-cypriot" data-diet="vegetarian vegan dairy-free gluten-free" data-time="10" data-keywords="smoothie berries banana oats breakfast quick kids">
+          <article class="recipe-card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1502741224143-90386d7f8c82?auto=format&fit=crop&w=800&h=533&q=70" alt="Glass of pink berry smoothie topped with mint, with fresh strawberries beside it on a pale bench." width="800" height="533" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="pill">Vegetarian</span>
+              <h3><a href="categories/vegetarian-and-vegan.html#berry-banana-smoothie">Frozen Berry, Banana and Oat Smoothie</a></h3>
+              <p>Oats instead of protein powder, frozen banana instead of ice. Made in one blender jug.</p>
+              <p class="card-meta"><span>10 min</span><span>Serves 2</span><span>Easy</span></p>
+            </div>
+          </article>
+        </li>
+
+      </ul>
+
+      <div class="empty-state" id="no-results" hidden>
+        <h3>No recipes match that combination yet</h3>
+        <p>Drop one filter, or search a single ingredient instead: halloumi, pumpkin, chickpeas, pourgouri.</p>
+        <p><a class="btn btn-secondary" href="recipes.html">Reset the page</a></p>
+      </div>
+
+      <aside class="ad-slot" aria-label="Advertisement">
+        <span>Advertisement</span>
+        <div class="ad-frame">Ad unit 728 x 90</div>
+      </aside>
+
+    </div>
+  </section>
+
+  <section class="band band-sage band-tight">
+    <div class="wrap wrap-narrow">
+      <h2>Not finding the dish you had in mind?</h2>
+      <p>Tell us what it is. Every request goes on a list, and that list decides what gets cooked and tested next. The ones we move on fastest are the family dishes nobody has written down properly yet, and allergen-friendly versions of recipes already here.</p>
+      <div class="btn-row">
+        <a class="btn btn-secondary" href="contact.html">Request a recipe</a>
+        <a class="btn btn-secondary" href="meal-plans.html">Browse the weekly meal plans</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="wordmark">Meraki <span>Table</span><small>Cypriot home cooking</small></span>
+        <p>Recipes cooked and tested in a home kitchen in Limassol, written in metric measures with a cups toggle on every page.</p>
+        <p class="small">
+          <!-- PLACEHOLDER - REPLACE WITH REAL VERIFIED INFORMATION BEFORE LAUNCH: publisher name, company registration and VAT numbers, address, email and phone. -->
+          Published by Meraki Table Media Ltd<br>
+          Reg. No. HE 412356 &middot; VAT CY10412356X<br>
+          24 Anexartisias Street, Office 3, Limassol 3040, Cyprus<br>
+          <a href="mailto:hello@merakitable.com.cy">hello@merakitable.com.cy</a><br>
+          <a href="tel:+35725000000">+357 25 000 000</a>
+        </p>
+      </div>
+      <div>
+        <h2>Cooking</h2>
+        <ul class="footer-links">
+          <li><a href="recipes.html">All recipes</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="cuisines/modern-cypriot.html">Modern Cypriot</a></li>
+          <li><a href="cuisines/asian-at-home.html">Asian at Home</a></li>
+          <li><a href="cuisines/mediterranean.html">Mediterranean</a></li>
+          <li><a href="meal-plans.html">Meal plans</a></li>
+          <li><a href="kitchen-basics.html">Kitchen basics &amp; conversions</a></li>
+          <li><a href="seasonal-produce.html">Seasonal produce guide</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Meraki Table</h2>
+        <ul class="footer-links">
+          <li><a href="about.html">About us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="newsletter.html">Newsletter</a></li>
+          <li><a href="work-with-us.html">Work with us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>The fine print</h2>
+        <ul class="footer-links">
+          <li><a href="legal/privacy-policy.html">Privacy policy</a></li>
+          <li><a href="legal/terms-of-use.html">Terms of use</a></li>
+          <li><a href="legal/cookie-policy.html">Cookie policy</a></li>
+          <li><a href="legal/advertising-disclosure.html">Advertising &amp; affiliate disclosure</a></li>
+          <li><a href="legal/nutrition-allergen-disclaimer.html">Nutrition &amp; allergen disclaimer</a></li>
+          <li><a href="legal/accessibility-statement.html">Accessibility statement</a></li>
+          <li><a href="#" data-open-cookie-settings>Cookie settings</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Meraki Table Media Ltd. All recipes and photography on this site are original work.</p>
+      <p>Cooked, tested and photographed in Limassol, Cyprus.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie consent">
+  <div class="wrap cookie-inner">
+    <div>
+      <h2>Cookies on Meraki Table</h2>
+      <p>We use essential cookies to make the site work. With your consent we also use advertising and analytics cookies, including cookies set by Google, to measure traffic and show relevant ads. You can reject these and still use the whole site. See our <a href="legal/cookie-policy.html">Cookie Policy</a>.</p>
+      <div class="cookie-prefs" id="cookie-prefs">
+        <div class="check-field">
+          <input type="checkbox" id="pref-essential" checked disabled>
+          <label for="pref-essential"><strong>Essential cookies.</strong> Always on. Needed for security, navigation and remembering your cookie choice.</label>
+        </div>
+        <div class="check-field">
+          <input type="checkbox" id="pref-analytics" name="cookie-pref" value="analytics">
+          <label for="pref-analytics"><strong>Analytics cookies.</strong> Help us see which recipes people actually cook.</label>
+        </div>
+        <div class="check-field">
+          <input type="checkbox" id="pref-ads" name="cookie-pref" value="advertising">
+          <label for="pref-ads"><strong>Advertising cookies.</strong> Used by Google and other advertising partners to select and measure ads.</label>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-sm" type="button" id="cookie-save-prefs">Save preferences</button>
+        </div>
+      </div>
+    </div>
+    <div class="cookie-actions">
+      <button class="btn btn-primary" type="button" id="cookie-accept">Accept all</button>
+      <button class="btn btn-secondary" type="button" id="cookie-reject">Reject non-essential</button>
+      <button class="btn btn-ghost" type="button" id="cookie-manage" aria-expanded="false" aria-controls="cookie-prefs">Manage preferences</button>
+    </div>
+  </div>
+</div>
+
+<button class="back-to-top" type="button">Back to top</button>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

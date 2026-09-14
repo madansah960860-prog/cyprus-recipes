@@ -1,0 +1,465 @@
+- generic [active] [ref=f4e1]:
+  - link "Skip to content" [ref=f4e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - link "Meraki Table Cypriot home cooking" [ref=f4e5] [cursor=pointer]:
+        - /url: ../index.html
+        - text: Meraki Table
+        - generic [ref=f4e6]: Cypriot home cooking
+      - navigation "Primary" [ref=f4e7]:
+        - list [ref=f4e8]:
+          - listitem [ref=f4e9]:
+            - link "Recipes" [ref=f4e10] [cursor=pointer]:
+              - /url: ../recipes.html
+          - listitem [ref=f4e11]:
+            - link "Categories" [ref=f4e12] [cursor=pointer]:
+              - /url: ../categories.html
+          - listitem [ref=f4e13]:
+            - link "Meal Plans" [ref=f4e14] [cursor=pointer]:
+              - /url: ../meal-plans.html
+          - listitem [ref=f4e15]:
+            - link "Kitchen Basics" [ref=f4e16] [cursor=pointer]:
+              - /url: ../kitchen-basics.html
+          - listitem [ref=f4e17]:
+            - link "Blog" [ref=f4e18] [cursor=pointer]:
+              - /url: ../blog.html
+          - listitem [ref=f4e19]:
+            - link "About" [ref=f4e20] [cursor=pointer]:
+              - /url: ../about.html
+      - search [ref=f4e22]:
+        - generic [ref=f4e23]: Search recipes
+        - searchbox "Search recipes" [ref=f4e24]
+        - button "Go" [ref=f4e25] [cursor=pointer]
+  - generic [ref=f4e27]:
+    - link "Jump to recipe" [ref=f4e28] [cursor=pointer]:
+      - /url: "#recipe"
+    - button "Print" [ref=f4e29] [cursor=pointer]
+    - button "Save" [ref=f4e30] [cursor=pointer]
+    - group "Ingredient units" [ref=f4e31]:
+      - button "Metric" [pressed] [ref=f4e32] [cursor=pointer]
+      - button "Cups" [ref=f4e33] [cursor=pointer]
+  - main [ref=f4e34]:
+    - navigation "Breadcrumb" [ref=f4e35]:
+      - list [ref=f4e36]:
+        - listitem [ref=f4e37]:
+          - link "Home" [ref=f4e38] [cursor=pointer]:
+            - /url: ../index.html
+        - listitem [ref=f4e39]:
+          - text: /
+          - link "Recipes" [ref=f4e40] [cursor=pointer]:
+            - /url: ../recipes.html
+        - listitem [ref=f4e41]:
+          - text: /
+          - link "BBQ & outdoor" [ref=f4e42] [cursor=pointer]:
+            - /url: ../categories/bbq-and-outdoor.html
+        - listitem [ref=f4e43]: /Barbecued pork chops with charred pineapple salsa
+    - article [ref=f4e44]:
+      - generic [ref=f4e45]:
+        - generic [ref=f4e46]:
+          - generic [ref=f4e47]:
+            - generic [ref=f4e48]: BBQ & outdoor
+            - heading "Barbecued Pork Chops with Charred Pineapple Salsa" [level=1] [ref=f4e49]
+            - paragraph [ref=f4e50]:
+              - text: By
+              - link "Elena Christodoulou" [ref=f4e51] [cursor=pointer]:
+                - /url: ../about.html
+              - text: . Published 12/08/2026. Tested four times, twice over charcoal on a foukou and twice on a gas grill.
+            - paragraph [ref=f4e52]: Sunday in a Cypriot yard usually means the foukou is lit, the charcoal is settling to grey, and somebody is arguing about when to put the meat on. This is the quick version, chops rather than a whole souvla, and a fifteen minute brine does the heavy lifting. It seasons the pork right through and buys you a far wider margin before it dries out, which is exactly what you want over charcoal, where the heat is never quite even.
+            - list [ref=f4e53]:
+              - listitem [ref=f4e54]:
+                - generic [ref=f4e55]: Serves 4
+              - listitem [ref=f4e56]:
+                - generic [ref=f4e57]: Gluten free
+              - listitem [ref=f4e58]:
+                - generic [ref=f4e59]: Dairy free
+            - generic [ref=f4e60]:
+              - link "Go to the ingredients" [ref=f4e61] [cursor=pointer]:
+                - /url: "#recipe"
+              - link "More grill recipes" [ref=f4e62] [cursor=pointer]:
+                - /url: ../categories/bbq-and-outdoor.html
+          - img "Thick grilled pork chop topped with caramelised pineapple pieces, plated with greens." [ref=f4e64]
+        - generic [ref=f4e65]:
+          - generic [ref=f4e66]:
+            - term [ref=f4e67]: Prep
+            - definition [ref=f4e68]: 20 min
+          - generic [ref=f4e69]:
+            - term [ref=f4e70]: Cook
+            - definition [ref=f4e71]: 15 min
+          - generic [ref=f4e72]:
+            - term [ref=f4e73]: Total
+            - definition [ref=f4e74]: 35 min
+          - generic [ref=f4e75]:
+            - term [ref=f4e76]: Serves
+            - definition [ref=f4e77]: 4 serves
+          - generic [ref=f4e78]:
+            - term [ref=f4e79]: Difficulty
+            - definition [ref=f4e80]: Easy
+          - generic [ref=f4e81]:
+            - term [ref=f4e82]: Grill
+            - definition [ref=f4e83]: High, about 230°C
+      - generic [ref=f4e85]:
+        - heading "Buy the right chop" [level=2] [ref=f4e86]
+        - paragraph [ref=f4e87]: Ask the butcher for loin chops cut 3 cm thick, bone in, about 250 g each. Say kotsi or brizoles and hold your fingers apart to show the thickness; every neighbourhood butcher in Limassol and Nicosia will cut them for you while you wait. The thin chops on foam trays at Alphamega or Lidl Cyprus cook through in about ninety seconds a side, which leaves no time for colour, and they are dry by the time they look appetising. If thick chops are not available, pork neck steaks work the same way and are what most people reach for anyway.
+        - paragraph [ref=f4e88]: Pork does not need to be cooked to grey any more. Current EU and Cypriot food safety guidance supports serving whole cuts of pork at 63°C after resting, which leaves the middle faintly pink and considerably juicier. Mince and rolled roasts are different and should still be cooked through.
+        - heading "Why this works on charcoal" [level=2] [ref=f4e89]
+        - paragraph [ref=f4e90]: "A foukou is built for souvla: a long, low bed of charcoal and a motor turning meat slowly a good distance above it. Chops want the opposite. Rake the coals into one hot half and leave the other half bare, so you have somewhere to move a chop that is colouring too fast. The brine matters more here than on a gas grill, because charcoal heat surges when fat drips and a brined chop shrugs that off. Lump charcoal from the kiosk burns hotter and cleaner than briquettes and is what most Cypriot households use."
+        - paragraph [ref=f4e92]:
+          - strong [ref=f4e93]: Affiliate disclosure.
+          - text: The thermometer link below is an affiliate link, which means we may earn a small commission if you buy through it. It does not change the price, and this recipe works fine with the poke test if you would rather not buy anything.
+        - paragraph [ref=f4e94]:
+          - text: A cheap instant read probe is the single most useful thing you can add to a charcoal setup.
+          - link "Superhome Center" [ref=f4e95] [cursor=pointer]:
+            - /url: https://www.superhome.com.cy/
+          - text: and most kitchen shops stock one for under €25.
+          - generic [ref=f4e96]: Affiliate link. We may earn a commission.
+      - complementary "Advertisement" [ref=f4e97]:
+        - generic [ref=f4e99]: Ad unit 728 x 90
+      - generic [ref=f4e101]:
+        - generic [ref=f4e103]:
+          - heading "Ingredients" [level=2] [ref=f4e104]
+          - generic [ref=f4e105]:
+            - generic [ref=f4e106]: Servings
+            - group "Servings" [ref=f4e107]:
+              - button "Decrease servings" [ref=f4e108] [cursor=pointer]: −
+              - status [ref=f4e109]: "4"
+              - button "Increase servings" [ref=f4e110] [cursor=pointer]: +
+          - paragraph [ref=f4e111]: Metric measures. The cup used here is the metric 250 ml cup and the tablespoon is 20 ml. A US cup is 240 ml and an imperial cup is 284 ml, so check which one you own.
+          - generic [ref=f4e112]:
+            - heading "For the brine" [level=3] [ref=f4e113]
+            - list [ref=f4e114]:
+              - listitem [ref=f4e115]:
+                - generic [ref=f4e116] [cursor=pointer]:
+                  - checkbox "1 litre cold water" [ref=f4e117]
+                  - generic [ref=f4e119]: 1 litre cold water
+              - listitem [ref=f4e120]:
+                - generic [ref=f4e121] [cursor=pointer]:
+                  - checkbox "60 g fine salt" [ref=f4e122]
+                  - generic [ref=f4e124]: 60 g fine salt
+              - listitem [ref=f4e125]:
+                - generic [ref=f4e126] [cursor=pointer]:
+                  - checkbox "40 g caster sugar" [ref=f4e127]
+                  - generic [ref=f4e129]: 40 g caster sugar
+          - generic [ref=f4e130]:
+            - heading "For the pork" [level=3] [ref=f4e131]
+            - list [ref=f4e132]:
+              - listitem [ref=f4e133]:
+                - generic [ref=f4e134] [cursor=pointer]:
+                  - checkbox "4 pork loin chops, bone in, 3 cm thick, about 250 g each" [ref=f4e135]
+                  - generic [ref=f4e137]: 4 pork loin chops, bone in, 3 cm thick, about 250 g each
+              - listitem [ref=f4e138]:
+                - generic [ref=f4e139] [cursor=pointer]:
+                  - checkbox "20 ml olive oil" [ref=f4e140]
+                  - generic [ref=f4e142]: 20 ml olive oil
+              - listitem [ref=f4e143]:
+                - generic [ref=f4e144] [cursor=pointer]:
+                  - checkbox "1 tsp cracked black pepper" [ref=f4e145]
+                  - generic [ref=f4e147]: 1 tsp cracked black pepper
+          - generic [ref=f4e148]:
+            - heading "For the charred pineapple salsa" [level=3] [ref=f4e149]
+            - list [ref=f4e150]:
+              - listitem [ref=f4e151]:
+                - generic [ref=f4e152] [cursor=pointer]:
+                  - checkbox "1/2 pineapple, peeled and cut into 1.5 cm rings" [ref=f4e153]
+                  - generic [ref=f4e155]: 1/2 pineapple, peeled and cut into 1.5 cm rings
+              - listitem [ref=f4e156]:
+                - generic [ref=f4e157] [cursor=pointer]:
+                  - checkbox "1 red pepper, finely diced, the sweet long Cypriot kind if you can get one" [ref=f4e158]
+                  - generic [ref=f4e160]: 1 red pepper, finely diced, the sweet long Cypriot kind if you can get one
+              - listitem [ref=f4e161]:
+                - generic [ref=f4e162] [cursor=pointer]:
+                  - checkbox "1/2 red onion, finely diced" [ref=f4e163]
+                  - generic [ref=f4e165]: 1/2 red onion, finely diced
+              - listitem [ref=f4e166]:
+                - generic [ref=f4e167] [cursor=pointer]:
+                  - checkbox "1 long red chilli, deseeded and finely chopped" [ref=f4e168]
+                  - generic [ref=f4e170]: 1 long red chilli, deseeded and finely chopped
+              - listitem [ref=f4e171]:
+                - generic [ref=f4e172] [cursor=pointer]:
+                  - checkbox "1/2 bunch coriander, leaves and fine stems chopped" [ref=f4e173]
+                  - generic [ref=f4e175]: 1/2 bunch coriander, leaves and fine stems chopped
+              - listitem [ref=f4e176]:
+                - generic [ref=f4e177] [cursor=pointer]:
+                  - checkbox "40 ml lime juice, about 2 limes" [ref=f4e178]
+                  - generic [ref=f4e180]: 40 ml lime juice, about 2 limes
+              - listitem [ref=f4e181]:
+                - generic [ref=f4e182] [cursor=pointer]:
+                  - checkbox "20 ml extra virgin olive oil" [ref=f4e183]
+                  - generic [ref=f4e185]: 20 ml extra virgin olive oil
+              - listitem [ref=f4e186]:
+                - generic [ref=f4e187] [cursor=pointer]:
+                  - checkbox "1/2 tsp sea salt flakes, Cyprus sea salt if you have it" [ref=f4e188]
+                  - generic [ref=f4e190]: 1/2 tsp sea salt flakes, Cyprus sea salt if you have it
+          - status [ref=f4e191]: 0 of 14 ticked
+        - generic [ref=f4e192]:
+          - heading "Method" [level=2] [ref=f4e193]
+          - list [ref=f4e194]:
+            - listitem [ref=f4e195]:
+              - generic [ref=f4e196]:
+                - heading "Brine the chops" [level=3] [ref=f4e197]
+                - paragraph [ref=f4e198]: Stir the salt and sugar into the cold water until dissolved. Sit the chops in the brine for 15 minutes, no longer. Fifteen minutes seasons the meat without making it taste like ham.
+            - listitem [ref=f4e199]:
+              - generic [ref=f4e200]:
+                - heading "Get the fire right" [level=3] [ref=f4e201]
+                - paragraph [ref=f4e202]: On charcoal, light it early and wait until the coals are covered in grey ash with no flame, then rake them to one side. On gas, turn the plate to high and give it a full ten minutes with the lid down. Either way you want around 230°C at the bars. Meat put on a grill that has not properly heated is the main reason pork sticks.
+            - listitem [ref=f4e203]:
+              - generic [ref=f4e204]:
+                - heading "Dry, oil and season" [level=3] [ref=f4e205]
+                - paragraph [ref=f4e206]: Lift the chops out, discard the brine and pat them very dry. Rub with olive oil and the cracked pepper. Do not add more salt, the brine has done that.
+            - listitem [ref=f4e207]:
+              - generic [ref=f4e208]:
+                - heading "Char the pineapple first" [level=3] [ref=f4e209]
+                - paragraph [ref=f4e210]: Lay the pineapple rings on the hot plate and grill for 3 minutes each side, until they carry dark bar marks and smell sweet. Move them to a board and dice once cool enough to handle.
+            - listitem [ref=f4e211]:
+              - generic [ref=f4e212]:
+                - heading "Grill the chops" [level=3] [ref=f4e213]
+                - paragraph [ref=f4e214]: Lay the chops down and leave them alone for 4 minutes. Turn once and give them another 4 minutes. Resist moving them around, the crust needs contact time.
+            - listitem [ref=f4e215]:
+              - generic [ref=f4e216]:
+                - heading "Render the fat edge" [level=3] [ref=f4e217]
+                - paragraph [ref=f4e218]: Stand the chops on their fat edge, leaning them against each other, for 2 minutes. This renders the fat and is the step most people skip.
+            - listitem [ref=f4e219]:
+              - generic [ref=f4e220]:
+                - heading "Rest" [level=3] [ref=f4e221]
+                - paragraph [ref=f4e222]: Move the chops to a warm plate and rest for 5 minutes, loosely covered. The internal temperature will settle at about 63°C. Resting is not optional here.
+            - listitem [ref=f4e223]:
+              - generic [ref=f4e224]:
+                - heading "Build the salsa and serve" [level=3] [ref=f4e225]
+                - paragraph [ref=f4e226]: Toss the diced pineapple with the red pepper, onion, chilli, coriander, lime juice, oil and salt flakes. Taste and adjust the lime. Spoon over the rested chops with the plate juices.
+          - generic [ref=f4e227]:
+            - heading "Cook's tips" [level=3] [ref=f4e228]
+            - list [ref=f4e229]:
+              - listitem [ref=f4e230]:
+                - strong [ref=f4e231]: Do not brine for longer than 20 minutes.
+                - text: This is a strong brine at 60 g of salt per litre. Left overnight it will cure the meat and the texture turns bouncy and wet.
+              - listitem [ref=f4e232]:
+                - strong [ref=f4e233]: Cook the pineapple before the pork, not after.
+                - text: Fruit sugars burn onto the plate and the residue will scorch anything that follows. Doing it first also means the salsa can sit and mingle while the pork cooks and rests.
+              - listitem [ref=f4e234]:
+                - strong [ref=f4e235]: Use the fat edge to test your heat.
+                - text: If the fat is not sizzling within ten seconds of touching the bars, the fire is not ready. Take the chops off and wait. Charcoal rewards patience and punishes hurry.
+              - listitem [ref=f4e236]:
+                - strong [ref=f4e237]: Keep a bare patch of grill.
+                - text: Coals flare when fat drips. Somewhere cool to park a chop for thirty seconds is worth more than any technique.
+              - listitem [ref=f4e238]:
+                - strong [ref=f4e239]: Make it in a pan indoors.
+                - text: A heavy cast iron pan over high heat gives almost the same result, minus the smoke that makes it taste like a Sunday. Open a window, and add the pineapple to the same pan afterwards with a knob of butter.
+          - heading "Storage" [level=2] [ref=f4e240]
+          - paragraph [ref=f4e241]: Cooked pork keeps in an airtight container in the fridge for up to 3 days. Slice it cold for sandwiches rather than reheating, which is the fastest way to make a good chop tough. The salsa keeps for 2 days but loses its crunch, so eat it on day one if you can.
+          - heading "Make ahead" [level=2] [ref=f4e242]
+          - paragraph [ref=f4e243]: The salsa can be made up to 4 hours ahead without the coriander, which is stirred through at the last minute so it stays green. Pineapple can be charred in the morning and left covered at room temperature. The brine can be mixed the night before and kept in the fridge.
+          - heading "Swaps and variations" [level=2] [ref=f4e244]
+          - list [ref=f4e245]:
+            - listitem [ref=f4e246]:
+              - strong [ref=f4e247]: Peaches instead of pineapple
+              - text: in July and August, when the local ones are heavy and dripping. Char them cut side down for two minutes, no longer.
+            - listitem [ref=f4e248]:
+              - strong [ref=f4e249]: Pomegranate and lemon
+              - text: in October, when the trees are loaded. Seeds, chopped parsley, olive oil and lemon instead of the lime and pineapple entirely.
+            - listitem [ref=f4e250]:
+              - strong [ref=f4e251]: Chicken thighs
+              - text: take the same brine and about 6 minutes a side.
+            - listitem [ref=f4e252]:
+              - strong [ref=f4e253]: No chilli
+              - text: if you are feeding small children. Add a little finely grated ginger instead for lift without heat.
+          - heading "Nutrition" [level=2] [ref=f4e254]
+          - table [ref=f4e255]:
+            - caption [ref=f4e256]: Estimated nutrition per serve
+            - rowgroup [ref=f4e257]:
+              - row [ref=f4e258]:
+                - columnheader "Per serve" [ref=f4e259]
+                - columnheader "Amount" [ref=f4e260]
+            - rowgroup [ref=f4e261]:
+              - row [ref=f4e262]:
+                - rowheader "Energy" [ref=f4e263]
+                - cell "2180 kJ (520 Cal)" [ref=f4e264]
+              - row [ref=f4e265]:
+                - rowheader "Protein" [ref=f4e266]
+                - cell "48 g" [ref=f4e267]
+              - row [ref=f4e268]:
+                - rowheader "Fat, total" [ref=f4e269]
+                - cell "26 g" [ref=f4e270]
+              - row [ref=f4e271]:
+                - rowheader "Saturated fat" [ref=f4e272]
+                - cell "8 g" [ref=f4e273]
+              - row [ref=f4e274]:
+                - rowheader "Carbohydrate" [ref=f4e275]
+                - cell "18 g" [ref=f4e276]
+              - row [ref=f4e277]:
+                - rowheader "Sugars" [ref=f4e278]
+                - cell "16 g" [ref=f4e279]
+              - row [ref=f4e280]:
+                - rowheader "Sodium" [ref=f4e281]
+                - cell "780 mg" [ref=f4e282]
+              - row [ref=f4e283]:
+                - rowheader "Dietary fibre" [ref=f4e284]
+                - cell "3 g" [ref=f4e285]
+          - paragraph [ref=f4e286]:
+            - text: Nutrition information is an estimate only. Sodium in particular depends on how long the pork sits in the brine. See our
+            - link "nutrition and allergen disclaimer" [ref=f4e287] [cursor=pointer]:
+              - /url: ../legal/nutrition-allergen-disclaimer.html
+            - text: .
+          - heading "Allergens" [level=2] [ref=f4e288]
+          - paragraph [ref=f4e289]: No common allergens in the recipe as written. Check the labels on your own oil and any bought condiments served alongside. Speak to a health professional about any dietary or medical need.
+      - generic [ref=f4e291]:
+        - heading "Questions people ask about this recipe" [level=2] [ref=f4e292]
+        - generic [ref=f4e293]:
+          - generic [ref=f4e294]:
+            - heading [level=3] [ref=f4e295]:
+              - button "Can I skip the brine?" [ref=f4e296] [cursor=pointer]:
+                - text: Can I skip the brine?
+                - generic [aria-hidden] [ref=f4e297]: +
+            - paragraph [ref=f4e298]: Yes, and the chops will still be good, but season them generously with salt 40 minutes before cooking instead so the salt has time to travel inwards. Salting five minutes before cooking is the worst option, because the surface is wet at exactly the moment you want it dry.
+          - generic [ref=f4e299]:
+            - heading [level=3] [ref=f4e300]:
+              - button "How do I tell it is done without a thermometer?" [ref=f4e301] [cursor=pointer]:
+                - text: How do I tell it is done without a thermometer?
+                - generic [aria-hidden] [ref=f4e302]: +
+            - paragraph [ref=f4e303]: "Press the middle of the chop with a finger. Raw feels like the flesh at the base of your thumb when your hand is open. Correctly cooked feels like the same spot when you touch your thumb to your middle finger: springy, with a little give. Firm and unyielding means it has gone too far."
+          - generic [ref=f4e304]:
+            - heading [level=3] [ref=f4e305]:
+              - button "Is tinned pineapple acceptable here?" [ref=f4e306] [cursor=pointer]:
+                - text: Is tinned pineapple acceptable here?
+                - generic [aria-hidden] [ref=f4e307]: +
+            - paragraph [ref=f4e308]: It works if you buy rings in juice rather than syrup, drain them well and pat them dry. They will char faster because they are already soft, so give them two minutes a side. Fresh is better, and whole pineapples turn up cheaply enough at Alphamega and the bigger laiki stalls, but this is not a recipe worth abandoning over it.
+      - generic [ref=f4e310]:
+        - heading "Cook this next" [level=2] [ref=f4e311]
+        - list [ref=f4e312]:
+          - listitem [ref=f4e313]:
+            - article [ref=f4e314]:
+              - img "Cobs of corn charred over a grill, glistening with butter." [ref=f4e316]
+              - generic [ref=f4e317]:
+                - generic [ref=f4e318]: BBQ & outdoor
+                - heading [level=3] [ref=f4e319]:
+                  - link "Barbecued Corn with Lime and Smoked Paprika Butter" [ref=f4e320] [cursor=pointer]:
+                    - /url: ../categories/bbq-and-outdoor.html#barbecued-corn-lime-butter
+                - paragraph [ref=f4e321]: Goes on the same plate while the pork rests.
+                - paragraph [ref=f4e322]:
+                  - generic [ref=f4e323]: 20 min
+                  - generic [ref=f4e324]: Serves 6
+          - listitem [ref=f4e325]:
+            - article [ref=f4e326]:
+              - img "Overhead platter of raw vegetables including carrot ribbons, radish and red cabbage." [ref=f4e328]
+              - generic [ref=f4e329]:
+                - generic [ref=f4e330]: BBQ & outdoor
+                - heading [level=3] [ref=f4e331]:
+                  - link "Charred Vegetable Platter with Whipped Feta" [ref=f4e332] [cursor=pointer]:
+                    - /url: ../categories/bbq-and-outdoor.html#charred-vegetable-platter
+                - paragraph [ref=f4e333]: The vegetable half of the same lunch.
+                - paragraph [ref=f4e334]:
+                  - generic [ref=f4e335]: 40 min
+                  - generic [ref=f4e336]: Serves 8
+          - listitem [ref=f4e337]:
+            - article [ref=f4e338]:
+              - img "Bowl of cut fruit including watermelon, strawberries, cherries and kiwifruit." [ref=f4e340]
+              - generic [ref=f4e341]:
+                - generic [ref=f4e342]: Vegetarian
+                - heading [level=3] [ref=f4e343]:
+                  - link "Summer Berry and Melon Platter with Lime and Mint" [ref=f4e344] [cursor=pointer]:
+                    - /url: ../categories/vegetarian-and-vegan.html#summer-fruit-platter
+                - paragraph [ref=f4e345]: Dessert that does not need the oven on.
+                - paragraph [ref=f4e346]:
+                  - generic [ref=f4e347]: 15 min
+                  - generic [ref=f4e348]: Serves 10
+  - contentinfo [ref=f4e349]:
+    - generic [ref=f4e350]:
+      - generic [ref=f4e351]:
+        - generic [ref=f4e352]:
+          - generic [ref=f4e353]:
+            - text: Meraki Table
+            - generic [ref=f4e354]: Cypriot home cooking
+          - paragraph [ref=f4e355]: Recipes cooked and tested in a home kitchen in Limassol, written in metric measures with a cups toggle on every page.
+          - paragraph [ref=f4e356]:
+            - text: Published by Meraki Table Media Ltd Reg. No. HE 412356 · VAT CY10412356X 24 Anexartisias Street, Office 3, Limassol 3040, Cyprus
+            - link "hello@merakitable.com.cy" [ref=f4e357] [cursor=pointer]:
+              - /url: mailto:hello@merakitable.com.cy
+            - link "+357 25 000 000" [ref=f4e358] [cursor=pointer]:
+              - /url: tel:+35725000000
+        - generic [ref=f4e359]:
+          - heading "Cooking" [level=2] [ref=f4e360]
+          - list [ref=f4e361]:
+            - listitem [ref=f4e362]:
+              - link "All recipes" [ref=f4e363] [cursor=pointer]:
+                - /url: ../recipes.html
+            - listitem [ref=f4e364]:
+              - link "Categories" [ref=f4e365] [cursor=pointer]:
+                - /url: ../categories.html
+            - listitem [ref=f4e366]:
+              - link "Modern Cypriot" [ref=f4e367] [cursor=pointer]:
+                - /url: ../cuisines/modern-cypriot.html
+            - listitem [ref=f4e368]:
+              - link "Asian at Home" [ref=f4e369] [cursor=pointer]:
+                - /url: ../cuisines/asian-at-home.html
+            - listitem [ref=f4e370]:
+              - link "Mediterranean" [ref=f4e371] [cursor=pointer]:
+                - /url: ../cuisines/mediterranean.html
+            - listitem [ref=f4e372]:
+              - link "Meal plans" [ref=f4e373] [cursor=pointer]:
+                - /url: ../meal-plans.html
+            - listitem [ref=f4e374]:
+              - link "Kitchen basics & conversions" [ref=f4e375] [cursor=pointer]:
+                - /url: ../kitchen-basics.html
+            - listitem [ref=f4e376]:
+              - link "Seasonal produce guide" [ref=f4e377] [cursor=pointer]:
+                - /url: ../seasonal-produce.html
+        - generic [ref=f4e378]:
+          - heading "Meraki Table" [level=2] [ref=f4e379]
+          - list [ref=f4e380]:
+            - listitem [ref=f4e381]:
+              - link "About us" [ref=f4e382] [cursor=pointer]:
+                - /url: ../about.html
+            - listitem [ref=f4e383]:
+              - link "Blog" [ref=f4e384] [cursor=pointer]:
+                - /url: ../blog.html
+            - listitem [ref=f4e385]:
+              - link "Newsletter" [ref=f4e386] [cursor=pointer]:
+                - /url: ../newsletter.html
+            - listitem [ref=f4e387]:
+              - link "Work with us" [ref=f4e388] [cursor=pointer]:
+                - /url: ../work-with-us.html
+            - listitem [ref=f4e389]:
+              - link "Contact us" [ref=f4e390] [cursor=pointer]:
+                - /url: ../contact.html
+            - listitem [ref=f4e391]:
+              - link "FAQ" [ref=f4e392] [cursor=pointer]:
+                - /url: ../faq.html
+        - generic [ref=f4e393]:
+          - heading "The fine print" [level=2] [ref=f4e394]
+          - list [ref=f4e395]:
+            - listitem [ref=f4e396]:
+              - link "Privacy policy" [ref=f4e397] [cursor=pointer]:
+                - /url: ../legal/privacy-policy.html
+            - listitem [ref=f4e398]:
+              - link "Terms of use" [ref=f4e399] [cursor=pointer]:
+                - /url: ../legal/terms-of-use.html
+            - listitem [ref=f4e400]:
+              - link "Cookie policy" [ref=f4e401] [cursor=pointer]:
+                - /url: ../legal/cookie-policy.html
+            - listitem [ref=f4e402]:
+              - link "Advertising & affiliate disclosure" [ref=f4e403] [cursor=pointer]:
+                - /url: ../legal/advertising-disclosure.html
+            - listitem [ref=f4e404]:
+              - link "Nutrition & allergen disclaimer" [ref=f4e405] [cursor=pointer]:
+                - /url: ../legal/nutrition-allergen-disclaimer.html
+            - listitem [ref=f4e406]:
+              - link "Accessibility statement" [ref=f4e407] [cursor=pointer]:
+                - /url: ../legal/accessibility-statement.html
+            - listitem [ref=f4e408]:
+              - link "Cookie settings" [ref=f4e409] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=f4e410]:
+        - paragraph [ref=f4e411]: © 2026 Meraki Table Media Ltd. All recipes and photography on this site are original work.
+        - paragraph [ref=f4e412]: Cooked, tested and photographed in Limassol, Cyprus.
+  - region "Cookie consent" [ref=f4e413]:
+    - generic [ref=f4e414]:
+      - generic [ref=f4e415]:
+        - heading "Cookies on Meraki Table" [level=2] [ref=f4e416]
+        - paragraph [ref=f4e417]:
+          - text: We use essential cookies to make the site work. With your consent we also use advertising and analytics cookies, including cookies set by Google, to measure traffic and show relevant ads. You can reject these and still use the whole site. See our
+          - link "Cookie Policy" [ref=f4e418] [cursor=pointer]:
+            - /url: ../legal/cookie-policy.html
+          - text: .
+      - generic [ref=f4e419]:
+        - button "Accept all" [ref=f4e420] [cursor=pointer]
+        - button "Reject non-essential" [ref=f4e421] [cursor=pointer]
+        - button "Manage preferences" [ref=f4e422] [cursor=pointer]

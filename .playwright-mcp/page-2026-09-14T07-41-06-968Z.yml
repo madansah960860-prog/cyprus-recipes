@@ -1,0 +1,398 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Meraki Table Cypriot home cooking" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - text: Meraki Table
+        - generic [ref=e6]: Cypriot home cooking
+      - navigation "Primary" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Recipes" [ref=e10] [cursor=pointer]:
+              - /url: recipes.html
+          - listitem [ref=e11]:
+            - link "Categories" [ref=e12] [cursor=pointer]:
+              - /url: categories.html
+          - listitem [ref=e13]:
+            - link "Meal Plans" [ref=e14] [cursor=pointer]:
+              - /url: meal-plans.html
+          - listitem [ref=e15]:
+            - link "Kitchen Basics" [ref=e16] [cursor=pointer]:
+              - /url: kitchen-basics.html
+          - listitem [ref=e17]:
+            - link "Blog" [ref=e18] [cursor=pointer]:
+              - /url: blog.html
+          - listitem [ref=e19]:
+            - link "About" [ref=e20] [cursor=pointer]:
+              - /url: about.html
+      - search [ref=e22]:
+        - generic [ref=e23]: Search recipes
+        - searchbox "Search recipes" [ref=e24]
+        - button "Go" [ref=e25] [cursor=pointer]
+  - main [ref=e26]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - heading "Cypriot cooking, written down the way it is actually done." [level=1] [ref=e30]
+        - paragraph [ref=e31]: Grams and millilitres first, a cups toggle on every recipe, and ingredients you can carry home from the laiki, Alphamega or Lidl Cyprus in one basket.
+        - search [ref=e32]:
+          - generic [ref=e33]: Search recipes by name or ingredient
+          - searchbox "Search recipes by name or ingredient" [ref=e34]
+          - button "Search recipes" [ref=e35] [cursor=pointer]
+        - paragraph [ref=e36]:
+          - text: Every recipe is free to read. Paid for by advertising, affiliate links and our cookbooks.
+          - link "How this site is funded" [ref=e37] [cursor=pointer]:
+            - /url: legal/advertising-disclosure.html
+          - text: .
+      - img "Overhead view of a long shared table set with plates of sliced meat, fresh herbs, chillies, leafy greens and small bowls of dressing on a weathered timber bench." [ref=e39]
+    - region [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: Off the test list, this week
+            - heading "What we have been cooking" [level=2] [ref=e45]
+            - paragraph [ref=e46]: Three recipes from the current round of testing. Nothing is published until it has been cooked three separate times in a home kitchen in Limassol, on a four-ring hob and a standard 60 cm oven, with the shopping done the same week.
+          - link "Browse all recipes" [ref=e48] [cursor=pointer]:
+            - /url: recipes.html
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - article [ref=e51]:
+              - img "Overhead tray of golden roasted chicken pieces with potatoes and two small bowls of dipping sauce." [ref=e53]
+              - generic [ref=e54]:
+                - generic [ref=e55]: Quick weeknight
+                - heading [level=3] [ref=e56]:
+                  - link "Sticky Soy and Ginger Chicken Tray Bake" [ref=e57] [cursor=pointer]:
+                    - /url: recipes/sticky-soy-ginger-chicken-tray-bake.html
+                - paragraph [ref=e58]: One tray, one bowl to wash. The glaze catches on the base of the pan while the Cyprus potatoes go crisp at the edges.
+                - paragraph [ref=e59]:
+                  - generic [ref=e60]: 45 min total
+                  - generic [ref=e61]: Serves 4
+                  - generic [ref=e62]: Easy
+          - listitem [ref=e63]:
+            - article [ref=e64]:
+              - img "Overhead bowl of roasted vegetables, chickpeas, sliced avocado, cherry tomatoes and leaves dressed with a pale sauce." [ref=e66]
+              - generic [ref=e67]:
+                - generic [ref=e68]: Vegetarian
+                - heading [level=3] [ref=e69]:
+                  - link "Roast Pumpkin, Chickpea and Rocket Salad" [ref=e70] [cursor=pointer]:
+                    - /url: recipes/roast-pumpkin-chickpea-rocket-salad.html
+                - paragraph [ref=e71]: Warm enough to sit in the middle of a meze table and hold its own. The lemon and tahini dressing keeps for four days and doubles as a sandwich spread.
+                - paragraph [ref=e72]:
+                  - generic [ref=e73]: 45 min total
+                  - generic [ref=e74]: Serves 4
+                  - generic [ref=e75]: Easy
+          - listitem [ref=e76]:
+            - article [ref=e77]:
+              - img "Broken dark chocolate cookies scattered on white baking paper, showing melted chocolate through the crumb." [ref=e79]
+              - generic [ref=e80]:
+                - generic [ref=e81]: Baking
+                - heading [level=3] [ref=e82]:
+                  - link "Double Chocolate and Macadamia Cookies" [ref=e83] [cursor=pointer]:
+                    - /url: recipes/double-chocolate-macadamia-cookies.html
+                - paragraph [ref=e84]: Dough rested overnight, Cyprus sea salt on top, macadamias from the supermarket nut aisle. Crisp at the rim, still soft in the middle.
+                - paragraph [ref=e85]:
+                  - generic [ref=e86]: 35 min total
+                  - generic [ref=e87]: Makes 18
+                  - generic [ref=e88]: Easy
+    - region [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93]: House numbers
+            - heading "Nothing here is guessed at" [level=2] [ref=e94]
+            - paragraph [ref=e95]: "Meraki means doing a thing with your whole self in it. In a recipe kitchen that turns out to be unglamorous work: weighing, cooking it again, and writing down the timing that was actually true rather than the one that sounded good."
+          - link "How we test" [ref=e97] [cursor=pointer]:
+            - /url: about.html
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - strong [ref=e100]: "3"
+            - generic [ref=e101]: times every recipe is cooked before it is published, on three different days
+          - listitem [ref=e102]:
+            - strong [ref=e103]: "214"
+            - generic [ref=e104]: recipes written, weighed and photographed since the site began
+          - listitem [ref=e105]:
+            - strong [ref=e106]: "5"
+            - generic [ref=e107]: "districts we shop in: Limassol, Nicosia, Larnaca, Paphos and Famagusta"
+          - listitem [ref=e108]:
+            - strong [ref=e109]: 250 ml
+            - generic [ref=e110]: the metric cup every conversion on this site is built on
+          - listitem [ref=e111]:
+            - strong [ref=e112]: "0"
+            - generic [ref=e113]: recipes hidden behind a paywall, now or later
+    - region [ref=e114]:
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - heading "Start with the time you have tonight" [level=2] [ref=e118]
+            - paragraph [ref=e119]: Four collections that cover most of an ordinary week, from a twenty minute Tuesday to a Sunday with the coals lit by eleven and lunch still going at four.
+          - link "All categories" [ref=e121] [cursor=pointer]:
+            - /url: categories.html
+        - list [ref=e122]:
+          - listitem [ref=e123]:
+            - link [ref=e124] [cursor=pointer]:
+              - /url: categories/quick-weeknight-dinners.html
+              - img "Overhead bowl of grilled protein with corn, red cabbage, cherry tomatoes and greens arranged in sections." [ref=e125]
+              - generic [ref=e126]:
+                - heading "Quick Weeknight Dinners" [level=3] [ref=e127]
+                - paragraph [ref=e128]: On the table in forty minutes, from a shop you could do on the way home.
+          - listitem [ref=e129]:
+            - link [ref=e130] [cursor=pointer]:
+              - /url: categories/baking-and-desserts.html
+              - img "Bright layer cake covered in colourful sprinkles with one slice cut away on a patterned cake stand." [ref=e131]
+              - generic [ref=e132]:
+                - heading "Baking & Desserts" [level=3] [ref=e133]
+                - paragraph [ref=e134]: Weighed in grams, with the fan-forced temperature printed beside every oven setting.
+          - listitem [ref=e135]:
+            - link [ref=e136] [cursor=pointer]:
+              - /url: categories/bbq-and-outdoor.html
+              - img "Cobs of corn charred over a grill, glistening with butter and flecked with herbs." [ref=e137]
+              - generic [ref=e138]:
+                - heading "BBQ & Outdoor" [level=3] [ref=e139]
+                - paragraph [ref=e140]: Souvla turning slowly, sheftalia, whole fish, halloumi with the bars marked on it, and the salads that sit beside them.
+          - listitem [ref=e141]:
+            - link [ref=e142] [cursor=pointer]:
+              - /url: categories/vegetarian-and-vegan.html
+              - img "Overhead platter of raw vegetables including carrot ribbons, radish, cucumber and red cabbage on a white board." [ref=e143]
+              - generic [ref=e144]:
+                - heading "Vegetarian & Vegan" [level=3] [ref=e145]
+                - paragraph [ref=e146]: Pulses, wild greens and vegetables treated as the meal, the way Cypriot cooking already does it through Lent.
+    - complementary "Advertisement" [ref=e148]:
+      - generic [ref=e150]: Ad unit 728 x 90
+    - region [ref=e151]:
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - generic [ref=e154]: September in Cyprus, the turn into autumn
+          - heading "Cook what the island is giving this month" [level=2] [ref=e155]
+          - paragraph [ref=e156]: September is the harvest. Grapes come down from the Troodos villages and the presses run, while everything on the coast is still hot enough to taste of July. Aubergines, courgettes and okra are at their cheapest, the last good tomatoes are here, and the first pomegranates and prickly pears turn up on the stalls long before the citrus arrives in December.
+          - paragraph [ref=e157]: "Our produce guide runs on the Cypriot calendar, so summer means June to August and winter means oranges, kolokasi and wild greens rather than stone fruit. Buy heavily now and put some away: this is the month for spoon sweets, for drying oregano off the stem, and for roasting and freezing peppers while they cost almost nothing."
+          - list [ref=e158]:
+            - listitem [ref=e159]: Grapes
+            - listitem [ref=e160]: Figs
+            - listitem [ref=e161]:
+              - generic [ref=e162]: Okra
+            - listitem [ref=e163]:
+              - generic [ref=e164]: Aubergine
+            - listitem [ref=e165]:
+              - generic [ref=e166]: Pomegranate
+            - listitem [ref=e167]:
+              - generic [ref=e168]: Prickly pear
+          - generic [ref=e169]:
+            - heading "At the laiki this week" [level=3] [ref=e170]
+            - paragraph [ref=e171]: Go before nine and walk the whole row once before you buy anything. Ask for the small knobbly okra rather than the long smooth ones, they hold their shape in the pot. Village tomatoes sold soft and split are the ones to buy for sauce and usually cost half as much. Take your own bag and small notes, and expect about €1.50 a kilo for courgettes while the season is at its peak.
+          - link "See the month by month guide" [ref=e172] [cursor=pointer]:
+            - /url: seasonal-produce.html
+        - img "Arrangement of fresh vegetables including tomatoes, carrots, beetroot, sprouts and radishes against a dark background." [ref=e174]
+    - region [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]: What we are for
+        - heading "A table worth sitting at for three hours" [level=2] [ref=e178]
+        - paragraph [ref=e179]: Cypriot food is not difficult. It is patient. The halloumi goes on dry, the bread goes round the table by hand, and the second plate of everything arrives whether you asked for it or not.
+        - generic [ref=e180]:
+          - paragraph [ref=e181]: "We write for the kitchen as it actually is in this country: a small hob, a long hot summer, a jar of carob syrup at the back of the cupboard and a tin of good oil somebody in the family sent down from the village. The recipes are precise because precision respects your time and your money, not because cooking should feel like an exam."
+          - paragraph [ref=e182]: So there is no method that eats a Sunday for no reason, and no ingredient ordered from abroad when something grown twenty minutes away does the job better. We do not call a dish traditional when we have changed it, and we do not call it ours when a yiayia in Lefkara taught it to us.
+          - paragraph [ref=e183]: And there is no paywall. If a recipe is on this site, you can cook it tonight for nothing.
+        - generic [ref=e184]:
+          - link "Meet the kitchen" [ref=e185] [cursor=pointer]:
+            - /url: about.html
+          - link "Start cooking" [ref=e186] [cursor=pointer]:
+            - /url: recipes.html
+    - region [ref=e187]:
+      - generic [ref=e188]:
+        - img "Overhead view of many small dishes of prepared ingredients arranged in rows on a white bench." [ref=e190]
+        - generic [ref=e191]:
+          - heading "Five dinners built out of one basket" [level=2] [ref=e192]
+          - paragraph [ref=e193]: Every free weekly plan starts from a single shop and works forward, so the bunch of coriander, the half jar of tahini and the last of the pourgouri all get used before they turn. Nothing is bought twice.
+          - paragraph [ref=e194]: The lists are grouped the way a Cypriot supermarket is laid out, with a short separate list for the laiki, and they flag what is probably already in your cupboard. Every plan prints on one page, and the recipes stay free whether or not you ever buy anything from us.
+          - generic [ref=e195]:
+            - link "See this week's plan" [ref=e196] [cursor=pointer]:
+              - /url: meal-plans.html
+            - link "Get plans by email" [ref=e197] [cursor=pointer]:
+              - /url: newsletter.html
+    - region [ref=e198]:
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - generic [ref=e201]:
+            - heading "Longer notes from the kitchen" [level=2] [ref=e202]
+            - paragraph [ref=e203]: Technique, shopping and the small decisions that quietly change how a dish comes out. Written after the cooking, not before it.
+          - link "All articles" [ref=e205] [cursor=pointer]:
+            - /url: blog.html
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - article [ref=e208]:
+              - img "Two hands pressing and folding bread dough on a floured timber bench beside a wooden rolling pin." [ref=e210]
+              - generic [ref=e211]:
+                - generic [ref=e212]: Technique
+                - heading [level=3] [ref=e213]:
+                  - 'link "A cup is not one size: 250 ml, 240 ml, 284 ml and why your biscuits spread" [ref=e214] [cursor=pointer]':
+                    - /url: blog/cup-measurements-explained.html
+                - paragraph [ref=e215]: The metric cup we use holds 250 ml, an American cup holds 240 ml and an old imperial cup holds 284 ml. Here is where those gaps actually show up on the tray.
+                - paragraph [ref=e216]:
+                  - generic [ref=e217]: 12 min read
+                  - generic [ref=e218]: 08/09/2026
+          - listitem [ref=e219]:
+            - article [ref=e220]:
+              - img "Overhead brunch table covered with bowls of yoghurt, fruit, granola and juice glasses." [ref=e222]
+              - generic [ref=e223]:
+                - generic [ref=e224]: Shopping
+                - heading [level=3] [ref=e225]:
+                  - 'link "Five dinners, one shop: a week planned around the laiki and a single supermarket run" [ref=e226] [cursor=pointer]':
+                    - /url: blog/weeknight-dinner-shopping-under-budget.html
+                - paragraph [ref=e227]: A method you can repeat any week of the year, with real prices from a Limassol trolley and the point at which buying in bulk stops paying for itself.
+                - paragraph [ref=e228]:
+                  - generic [ref=e229]: 14 min read
+                  - generic [ref=e230]: 01/09/2026
+          - listitem [ref=e231]:
+            - article [ref=e232]:
+              - img "Timber chopping board holding halved avocado, cherry tomatoes, eggs, mushrooms, spring onions and a knife." [ref=e234]
+              - generic [ref=e235]:
+                - generic [ref=e236]: Equipment
+                - heading [level=3] [ref=e237]:
+                  - 'link "Fan-forced, conventional or grill: reading your oven properly" [ref=e238] [cursor=pointer]':
+                    - /url: blog/fan-forced-oven-guide.html
+                - paragraph [ref=e239]: Why one tray of vegetables browns and the identical tray beside it steams, and what to change when a recipe gives a single temperature and no fan note.
+                - paragraph [ref=e240]:
+                  - generic [ref=e241]: 11 min read
+                  - generic [ref=e242]: 25/08/2026
+    - region [ref=e243]:
+      - generic [ref=e244]:
+        - heading "Who pays for all this" [level=2] [ref=e245]
+        - paragraph [ref=e246]: We sell you nothing in order to read a recipe. There is no paywall on any cooking content on Meraki Table and there will not be one. A tested recipe site still costs money to run, so here is where ours comes from, set out plainly.
+        - list [ref=e247]:
+          - listitem [ref=e248]:
+            - generic [ref=e249]:
+              - heading "Display advertising" [level=3] [ref=e250]
+              - paragraph [ref=e251]: We sell advertising space through partners including Google. Ads sit below the content, carry an advertising label, and never cover a method step, an ingredient list or a button.
+          - listitem [ref=e252]:
+            - generic [ref=e253]:
+              - heading "Affiliate commissions" [level=3] [ref=e254]
+              - paragraph [ref=e255]: Some links to pans, thermometers and pantry staples earn us a small commission if you buy. The disclosure sits beside the link itself rather than only in the footer, and you pay exactly the same price either way.
+          - listitem [ref=e256]:
+            - generic [ref=e257]:
+              - heading "Cookbooks and seasonal bundles" [level=3] [ref=e258]
+              - paragraph [ref=e259]: We sell downloadable PDF cookbooks and seasonal meal-plan bundles, priced in euro. Buying one is optional, and nothing that was free on the site is ever moved into a paid file.
+          - listitem [ref=e260]:
+            - generic [ref=e261]:
+              - heading "Optional membership" [level=3] [ref=e262]
+              - paragraph [ref=e263]: Meraki Table Membership is €5.50 a month for ad-free browsing, printable recipe cards and saved collections.
+          - listitem [ref=e264]:
+            - generic [ref=e265]:
+              - heading "Sponsored recipes and newsletter slots" [level=3] [ref=e266]
+              - paragraph [ref=e267]: Now and then a producer pays us to develop a recipe. Those pages carry a sponsorship label at the very top, above the photograph, and the testing standard does not change. Newsletter sponsorship is labelled the same way inside the email.
+        - generic [ref=e268]:
+          - link "Read the full disclosure" [ref=e269] [cursor=pointer]:
+            - /url: legal/advertising-disclosure.html
+          - link "Work with us" [ref=e270] [cursor=pointer]:
+            - /url: work-with-us.html
+    - region [ref=e271]:
+      - generic [ref=e273]:
+        - heading "One email, Thursday morning" [level=2] [ref=e274]
+        - paragraph [ref=e275]: The new recipes, what is cheap at the market this week, and the shopping list for the current meal plan. You subscribe by choosing to, we name ourselves clearly in every send, and every email carries a working unsubscribe link, as the GDPR and the EU ePrivacy rules require.
+        - generic [ref=e276]:
+          - link "Sign up for the newsletter" [ref=e277] [cursor=pointer]:
+            - /url: newsletter.html
+          - link "How we handle your details" [ref=e278] [cursor=pointer]:
+            - /url: legal/privacy-policy.html
+  - contentinfo [ref=e279]:
+    - generic [ref=e280]:
+      - generic [ref=e281]:
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - text: Meraki Table
+            - generic [ref=e284]: Cypriot home cooking
+          - paragraph [ref=e285]: Recipes cooked and photographed in a home kitchen in Limassol, written in grams and millilitres with a cups toggle on every page.
+          - paragraph [ref=e286]:
+            - text: Published by Meraki Table Media Ltd Reg. No. HE 412356 · VAT CY10412356X 24 Anexartisias Street, Office 3, Limassol 3040, Cyprus
+            - link "hello@merakitable.com.cy" [ref=e287] [cursor=pointer]:
+              - /url: mailto:hello@merakitable.com.cy
+            - link "+357 25 000 000" [ref=e288] [cursor=pointer]:
+              - /url: tel:+35725000000
+        - generic [ref=e289]:
+          - heading "Cooking" [level=2] [ref=e290]
+          - list [ref=e291]:
+            - listitem [ref=e292]:
+              - link "All recipes" [ref=e293] [cursor=pointer]:
+                - /url: recipes.html
+            - listitem [ref=e294]:
+              - link "Categories" [ref=e295] [cursor=pointer]:
+                - /url: categories.html
+            - listitem [ref=e296]:
+              - link "Modern Cypriot" [ref=e297] [cursor=pointer]:
+                - /url: cuisines/modern-cypriot.html
+            - listitem [ref=e298]:
+              - link "Asian at Home" [ref=e299] [cursor=pointer]:
+                - /url: cuisines/asian-at-home.html
+            - listitem [ref=e300]:
+              - link "Mediterranean" [ref=e301] [cursor=pointer]:
+                - /url: cuisines/mediterranean.html
+            - listitem [ref=e302]:
+              - link "Meal plans" [ref=e303] [cursor=pointer]:
+                - /url: meal-plans.html
+            - listitem [ref=e304]:
+              - link "Kitchen basics & conversions" [ref=e305] [cursor=pointer]:
+                - /url: kitchen-basics.html
+            - listitem [ref=e306]:
+              - link "Seasonal produce guide" [ref=e307] [cursor=pointer]:
+                - /url: seasonal-produce.html
+        - generic [ref=e308]:
+          - heading "Meraki Table" [level=2] [ref=e309]
+          - list [ref=e310]:
+            - listitem [ref=e311]:
+              - link "About us" [ref=e312] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=e313]:
+              - link "Blog" [ref=e314] [cursor=pointer]:
+                - /url: blog.html
+            - listitem [ref=e315]:
+              - link "Newsletter" [ref=e316] [cursor=pointer]:
+                - /url: newsletter.html
+            - listitem [ref=e317]:
+              - link "Work with us" [ref=e318] [cursor=pointer]:
+                - /url: work-with-us.html
+            - listitem [ref=e319]:
+              - link "Contact us" [ref=e320] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=e321]:
+              - link "FAQ" [ref=e322] [cursor=pointer]:
+                - /url: faq.html
+        - generic [ref=e323]:
+          - heading "The fine print" [level=2] [ref=e324]
+          - list [ref=e325]:
+            - listitem [ref=e326]:
+              - link "Privacy policy" [ref=e327] [cursor=pointer]:
+                - /url: legal/privacy-policy.html
+            - listitem [ref=e328]:
+              - link "Terms of use" [ref=e329] [cursor=pointer]:
+                - /url: legal/terms-of-use.html
+            - listitem [ref=e330]:
+              - link "Cookie policy" [ref=e331] [cursor=pointer]:
+                - /url: legal/cookie-policy.html
+            - listitem [ref=e332]:
+              - link "Advertising & affiliate disclosure" [ref=e333] [cursor=pointer]:
+                - /url: legal/advertising-disclosure.html
+            - listitem [ref=e334]:
+              - link "Nutrition & allergen disclaimer" [ref=e335] [cursor=pointer]:
+                - /url: legal/nutrition-allergen-disclaimer.html
+            - listitem [ref=e336]:
+              - link "Accessibility statement" [ref=e337] [cursor=pointer]:
+                - /url: legal/accessibility-statement.html
+            - listitem [ref=e338]:
+              - link "Cookie settings" [ref=e339] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e340]:
+        - paragraph [ref=e341]: © 2026 Meraki Table Media Ltd. All recipes and photography on this site are original work.
+        - paragraph [ref=e342]: Cooked, tested and photographed in Limassol, Cyprus.
+  - region "Cookie consent" [ref=e343]:
+    - generic [ref=e344]:
+      - generic [ref=e345]:
+        - heading "Cookies on Meraki Table" [level=2] [ref=e346]
+        - paragraph [ref=e347]:
+          - text: Essential cookies keep the site working. With your consent we also use advertising and analytics cookies, including cookies set by Google, to measure traffic and choose which ads you see. Refuse them and the whole site still works exactly the same. See our
+          - link "Cookie Policy" [ref=e348] [cursor=pointer]:
+            - /url: legal/cookie-policy.html
+          - text: .
+      - generic [ref=e349]:
+        - button "Accept all" [ref=e350] [cursor=pointer]
+        - button "Reject non-essential" [ref=e351] [cursor=pointer]
+        - button "Manage preferences" [ref=e352] [cursor=pointer]
+  - button "Back to top" [ref=e353] [cursor=pointer]
